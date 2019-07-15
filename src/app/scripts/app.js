@@ -3,7 +3,6 @@ import Layout from '../scripts/layout'
 import Parallax from 'parallax-js'
 import { jarallax } from 'jarallax'
 import I18n from '../scripts/i18n'
-import CookieWarning from '../scripts/cookie-warning'
 import TextScramble from './scramble'
 import 'parsleyjs'
 
@@ -25,7 +24,6 @@ export default class App {
     this._initHideNavMenuOnCLickOnMobile();
     this._initThemeSwitcher();
     new I18n().init();
-    new CookieWarning().init();
     new TextScramble(
       'textScramble',
       ['Daniel Romero', 'Full Stack Developer', 'Android Developer', 'Software Engineer'],
