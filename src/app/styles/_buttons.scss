@@ -1,0 +1,12 @@
+.btn-primary {
+  border-radius: 0px;
+  letter-spacing: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+  }
+}

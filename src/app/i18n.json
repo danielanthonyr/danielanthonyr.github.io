@@ -1,0 +1,152 @@
+{
+  "i18nAboutMe0": {
+    "en": "Here you will find a summary of my programming skills and work experience"
+  },
+  "i18nAboutMe1": {
+    "en": "Each project has a link to my GitHub profile where you will find a detailed description and source code."
+  },
+  "i18nAboutMe2": {
+    "en": "Throughout my work experience, studies and personal projects, i have been able to quickly pickup HTML, CSS (Bootstrap), JavaScript (AngularJS & React), Java (Also Android), Linux, Bash, Node.JS, Git, XML, Python, SQL, PostGress, PHP, Rest API, Design Patterns, Automated Testing, Shell, Jenkins, Deployment"
+  },
+  "i18nAboutMe3": {
+    "en": "Currently, I am working with Javascript (React and Angular) frameworks at application level and dealing with PHP and SQL on the backend"
+  },
+  "i18nAboutMe5": {
+    "en": "choose your side"
+  },
+  "i18nAboutMe6": {
+    "en": "light"
+  },
+  "i18nAboutMe7": {
+    "en": "dark"
+  },
+  "i18nNavbar0": {
+    "en": "about me"
+  },
+  "i18nNavbar1": {
+    "en": "skills"
+  },
+  "i18nNavbar2": {
+    "en": "experience"
+  },
+  "i18nNavbar3": {
+    "en": "projects"
+  },
+  "i18nNavbar4": {
+    "en": "contact"
+  },
+  "i18nSkills0": {
+    "en": "skills"
+  },
+  "i18nSkills2": {
+    "en": "databases"
+  },
+  "i18nSkills3": {
+    "en": "tests"
+  },
+  "i18nSkills4": {
+    "en": "tools"
+  },
+  "i18nSkills5": {
+    "en": "mobile"
+  },
+  "i18nExperience0a": {
+    "en": "experience"
+  },
+  "i18nExperience0b": {
+    "en": "Total IT"
+  },
+  "i18nExperience0c": {
+    "en": "Total CAD"
+  },
+  "i18nExperience1b": {
+    "en": "Full Stack Engineer"
+  },
+  "i18nExperience1c": {
+    "en": " at Bombardier Aerospace - Montreal"
+  },
+  "i18nExperience1d": {
+    "en": "- Implemented designs, new software features and prototypes over multiple iterations"
+  },
+  "i18nExperience1f": {
+    "en": "JavaScript, Angular, React"
+  },
+  "i18nExperience1g": {
+    "en": "PHP, SQL"
+  },
+  "i18nExperience1h": {
+    "en": "Linux, Bash, AWS"
+  },
+  "i18nExperience1k": {
+    "en": "Algorithms to improve performance"
+  },
+  "i18nExperience2a": {
+    "en": "- Built, tested and deployed a cross platform mobile (Android, iOS, Web) app from scratch that was downloaded by 30 000+ of users"
+  },
+  "i18nExperience2c": {
+    "en": "Java, Android"
+  },
+  "i18nExperience2d": {
+    "en": "Swift"
+  },
+  "i18nExperience2e": {
+    "en": "Python, Postgress"
+  },
+  "i18nExperience7": {
+    "en": "at Bombardier Aerospace - Dorval"
+  },
+  "i18nExperience8": {
+    "en": " Wrote and implemented testing scripts to enhance quality assurance of Bombardier’s In-House software"
+  },
+  "i18nExperience9": {
+    "en": "Jenkins, Git"
+  },
+  "i18nExperience10": {
+    "en": "Javascript, AngularJS, Cordova, Phonegap"
+  },
+  "i18nExperience11": {
+    "en": "PHPUnit Testing, Behat Testing, Jest Testing"
+  },
+  "i18nExperience13": {
+    "en": " at Concordia University"
+  },
+  "i18nExperience14": {
+    "en": "Learning core programming concepts using Java"
+  },
+  "i18nExperience15": {
+    "en": "Algorithms & Problem Solving"
+  },
+  "i18nExpCodest0": {
+    "en": "at CAE Inc - Montreal"
+  },
+  "i18nExpCodest1": {
+    "en": "From 06.2019"
+  },
+  "i18nExpCodest2": {
+    "en": "- Built, tested and deployed scalable, highly available software products for thousands of users"
+  },
+  "i18nExpCodest3": {
+    "en": "sometimes Ruby and Ruby on Rails"
+  },
+  "i18nProjects0": {
+    "en": "projects"
+  },
+  "i18nProjects13": {
+    "en": "more"
+  },
+  "i18nReferences0": {
+    "en": "references"
+  },
+  "i18nContact0": {
+    "en": "contact"
+  },
+  "i18nContact1": {
+    "en": "phone number"
+  },
+  "i18nContact2": {
+    "en": "message"
+  },
+  "i18nContact3": {
+    "en": "send"
+  }
+}

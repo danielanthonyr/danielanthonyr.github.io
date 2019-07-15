@@ -1,0 +1,261 @@
+$raw-black: #000000;
+$light-black: #222929;
+$raw-white: #ffffff;
+
+$theme-colors: (
+  dark: (
+    background: #343a40,
+    body-object: #434a54,
+    body-object-light: #777,
+    font: #f5f5f5,
+    leading: #ffa500
+  ),
+  light: (
+    background: $raw-white,
+    body-object: #eeeeee,
+    body-object-light: #dadfe1,
+    font: #000000,
+    leading: #da0600
+  )
+);
+
+@mixin theme($mode) {
+  $background: map-get(map-get($theme-colors, $mode), background);
+  $body-object: map-get(map-get($theme-colors, $mode), body-object);
+  $body-object-light: map-get(map-get($theme-colors, $mode), body-object-light);
+  $font: map-get(map-get($theme-colors, $mode), font);
+  $leading: map-get(map-get($theme-colors, $mode), leading);
+
+  & {
+    @if $mode == light {
+      font-weight: 400;
+    }
+    background-color: $background;
+    color: $font;
+    a {
+      color: $font;
+      &:hover {
+        color: $leading;
+      }
+    }
+    h3 {
+      .square-bracket {
+        color: $leading;
+      }
+    }
+    h5 {
+      color: $leading;
+    }
+    .highlighted {
+      color: $leading;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $body-object-light;
+    }
+  }
+
+  .navbar {
+    box-shadow: 0px 0px 10px 1px $light-black;
+    background-color: $light-black;
+    @if $mode == light {
+      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+        0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+      background-color: $background;
+      a {
+        color: $raw-black !important;
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+          color: $leading !important;
+        }
+      }
+      .navbar-toggler {
+        border-color: $raw-black !important;
+        &:hover,
+        &:focus,
+        &:active {
+          outline: none;
+        }
+        .navbar-toggler-icon {
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+      }
+    }
+  }
+
+  #cookie {
+    .cookie-warning {
+      background-color: $body-object;
+    }
+  }
+
+  .btn-primary {
+    background-color: $body-object-light;
+    border-color: $body-object-light;
+    color: $font;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $leading !important;
+      border-color: $leading !important;
+      color: $raw-black !important;
+      @if $mode == light {
+        color: $background !important;
+      }
+    }
+  }
+
+  .jarallax {
+    .jarallax-img {
+      @if $mode == light {
+        -webkit-filter: brightness(120%);
+        -webkit-filter: contrast(90%);
+      }
+    }
+  }
+
+  #about-me {
+    @if $mode == light {
+      color: map-get(map-get($theme-colors, dark), font);
+      font-weight: 300;
+    }
+    .text-scramble {
+      .blinker {
+        color: $leading;
+      }
+    }
+    .go-down-container {
+      .side {
+        color: $raw-white;
+      }
+      #light-mode-btn,
+      #dark-mode-btn {
+        background-color: transparent;
+        border: none;
+        color: $raw-white;
+        &:hover,
+        &:focus,
+        &:active {
+          box-shadow: none;
+        }
+      }
+      #light-mode-btn {
+        border-bottom: 1px solid #ffa500 !important;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #ffa500 !important;
+        }
+      }
+      #dark-mode-btn {
+        border-bottom: 1px solid #d91e18 !important;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #d91e18 !important;
+          color: $raw-black;
+          img {
+            filter: invert(1);
+          }
+        }
+      }
+    }
+  }
+
+  #experience {
+    .fa-square-full {
+      color: $leading;
+    }
+    .fa-cogs,
+    .fa-laptop {
+      color: $leading;
+    }
+    .timeline {
+      &:before {
+        background-color: $body-object-light;
+      }
+      & > li > .timeline-panel {
+        border: 0.5px solid $body-object;
+        background-color: $body-object;
+        &:hover {
+          border-color: $leading;
+        }
+      }
+      & > li > .timeline-badge {
+        background-color: $leading;
+      }
+    }
+  }
+
+  #projects {
+    .card,
+    .card-footer {
+      border: 1px solid $body-object;
+      background-color: $body-object;
+    }
+    .card {
+      .card-title {
+        color: $leading;
+      }
+      &:hover {
+        border-color: $leading;
+      }
+    }
+  }
+
+  #references {
+    .reference-background {
+      background-color: $body-object;
+      border: 1px solid $body-object;
+      &:hover {
+        border-color: $leading;
+      }
+    }
+    .fa-quote-left,
+    .fa-quote-right,
+    .reference-author {
+      color: $leading;
+    }
+    .reference-author > a {
+      color: $leading;
+    }
+  }
+
+  #contact {
+    input,
+    textarea {
+      color: $font;
+      background-color: $body-object;
+      border-color: $body-object;
+      &:focus,
+      &:hover {
+        border-color: $leading;
+        box-shadow: 0 0 0 0.1px $leading;
+      }
+      &::placeholder {
+        color: inherit;
+      }
+    }
+    .parsley-errors-list li {
+      background-color: $leading;
+      color: $black;
+      font-weight: inherit;
+      @if $mode == light {
+        color: $background;
+      }
+    }
+  }
+
+  #footer {
+    background-color: $light-black;
+    @if $mode==light {
+      background-color: $body-object;
+    }
+    .wrapper {
+      .go-up {
+        color: $leading;
+      }
+    }
+  }
+}
