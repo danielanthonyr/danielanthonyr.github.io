@@ -11,7 +11,6 @@ class I18n {
   }
 
   init = () => {
-    this._initButtonsBehaviour()
     this._setLanguage(this._currentLanguage)
     this.render()
   }
@@ -22,7 +21,6 @@ class I18n {
       : navigator.language
 
   _setLanguage = chosenLanguage => {
-      this._hoverEn()
       this._currentLanguage = this._Language.EN
   }
 
@@ -60,19 +58,6 @@ class I18n {
           }
         }
       })
-  }
-
-  _hoverEn = () => {
-    document.querySelector('.i18n-button-en').classList.add('highlighted')
-  }
-
-  _initButtonsBehaviour = () => {
-    document.querySelector('.i18n-button-en').addEventListener('click', e => {
-      e.preventDefault()
-      this._setLanguage(this._Language.EN)
-      this.render()
-      this._hoverEn()
-    })
   }
 }
 
