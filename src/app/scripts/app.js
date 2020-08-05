@@ -26,7 +26,7 @@ export default class App {
     new I18n().init();
     new TextScramble(
       'textScramble',
-      ['Daniel Romero', 'Full Stack Developer', 'Android Developer', 'Software Engineer'],
+      ['Daniel Romero', 'Full Stack Developer', 'iOS Developer' ,'Android Developer', 'Software Engineer'],
       5,
       100,
       1500

@@ -11,3 +11,11 @@ Here is my personal portfolio showcasing my work experience and personal project
 ### Tools
 
 JavaScript, Bootstrap, Webpack, lit-html, SCSS
+
+### Compiling
+
+build project: npm install
+
+Run in dev mode: npm run dev
+
+Build for prod: npm run prod
