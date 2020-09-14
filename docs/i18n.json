@@ -60,7 +60,7 @@
     "en": "Total CAD"
   },
   "i18nExperience1b": {
-    "en": "Full Stack Engineer"
+    "en": "Full Stack Mobile Engineer"
   },
   "i18nExperience1c": {
     "en": " at Bombardier Aerospace - Montreal"
@@ -69,10 +69,10 @@
     "en": "- Implemented designs, new software features and prototypes over multiple iterations"
   },
   "i18nExperience1f": {
-    "en": "JavaScript, Angular, React"
+    "en": "Swift, JavaScript, Angular"
   },
   "i18nExperience1g": {
-    "en": "PHP, SQL"
+    "en": "PHP, SQL, Firebase"
   },
   "i18nExperience1h": {
     "en": "Linux, Bash, AWS"
