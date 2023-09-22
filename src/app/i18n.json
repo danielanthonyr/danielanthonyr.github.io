@@ -92,6 +92,21 @@
   "i18nExperience2e": {
     "en": "Python, Postgress"
   },
+  "i18nExperience3a": {
+    "en": "- Built scalable software for millions of users on Wish's iOS mobile application"
+  },
+  "i18nExperience3c": {
+    "en": "Swift, SwiftUI, UIKit, Storyboard"
+  },
+  "i18nExperience3d": {
+    "en": "Create Client Infrastructure tools with Gitlab"
+  },
+  "i18nExperience3e": {
+    "en": "Curl, Bash"
+  },
+  "i18nExperience3f": {
+    "en": "Unit Testing using XCTest"
+  },
   "i18nExperience7": {
     "en": "at Bombardier Aerospace - Dorval"
   },
